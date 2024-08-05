@@ -1,0 +1,101 @@
+{
+	"data": {
+		"settings": {
+			"overTargetToZero": true
+		},
+		"groups": [
+			{
+				"title": "Reliability",
+				"scores": [
+					{
+						"title": "Sprint goals",
+						"target": 100,
+						"heigerIsBetter": true,
+						"mayExceed": false,
+						"values": [
+							{ "label": "112", "score": 80 },
+							{ "label": "113", "score": 80 }
+						]
+					}
+				]
+			},
+			{
+				"title": "Elevating Quality Standards",
+
+				"scores": [
+					{
+						"title": "Checklist score DoR",
+						"target": 90,
+
+						"heigerIsBetter": true,
+						"mayExceed": false,
+						"values": [
+							{ "label": "112", "score": 70 },
+							{ "label": "113", "score": 70 }
+						]
+					},
+					{
+						"title": "Checklist score DoD",
+						"target": 90,
+						"heigerIsBetter": true,
+						"mayExceed": false,
+						"values": [
+							{ "label": "112", "score": 50 },
+							{ "label": "115", "score": 50 }
+						]
+					}
+				]
+			},
+			{
+				"title": "Knowledge Sharing Sales",
+
+				"scores": [
+					{
+						"title": "Cross team",
+						"target": 75,
+						"heigerIsBetter": true,
+						"mayExceed": false,
+						"values": [{ "label": "onetime", "score": 66 }]
+					}
+				]
+			},
+			{
+				"title": "Key system metrics",
+
+				"scores": [
+					{
+						"title": "Cart Uptime",
+						"target": 99.99,
+						"heigerIsBetter": true,
+						"mayExceed": false,
+						"values": [{ "label": "onetime", "score": 99.35 }]
+					},
+					{
+						"title": "Cart response",
+						"target": 1.5,
+						"heigerIsBetter": false,
+						"mayExceed": false,
+						"values": [
+							{ "label": "112", "score": 0.7 },
+							{ "label": "113", "score": 0.7 }
+						]
+					},
+					{
+						"title": "Checker response time",
+						"target": 1.5,
+						"heigerIsBetter": false,
+						"mayExceed": false,
+						"values": [{ "label": "onetime", "score": 2 }]
+					},
+					{
+						"title": "Real User Metrics",
+						"target": 80,
+						"heigerIsBetter": true,
+						"mayExceed": false,
+						"values": [{ "label": "onetime", "score": 85 }]
+					}
+				]
+			}
+		]
+	}
+}
